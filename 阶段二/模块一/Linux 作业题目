@@ -1,0 +1,125 @@
+Linux 作业题目
+一.选择题
+1.怎样了解您在当前目录下还有多大空间（）
+
+A．use df B. use du / C. use du .  D. use df .
+
+
+
+2．显示文件头部内容的命令是（）
+
+A．fidsk  B.mount  C.head  D.man
+
+
+
+3.删除文件的命令是（）
+
+A．mkdir  B.rm  C. mv  D. remove
+
+
+
+4.显示用户的ID，以及所属组的ID，要使用命令是（）
+
+A．su  B.who  C.id  D. man
+
+
+
+5.Linux根分区的文件系统是（）
+
+A．FAT16  B.FAT32  C.EXT3  D.NTFS
+
+
+
+6.怎么查看一个在不断更新的日志，并能随着日志的更新而滚动显示日志（）
+
+A:head B: more C less D tail
+
+
+
+7 以下是ls -al命令显示的目录内容，请根据选项描述，选择描述正确的选项。()
+
+[root@kw.datateacher.001 dev]# ls -al total 4 drwxr-xr-x  20 root root        3180 Jul  9 16:18 . dr-xr-xr-x. 20 root root        4096 Jul 20 19:48 .. crw-------   1 root root     10, 235 Jul  9 16:18 autofs drwxr-xr-x   2 root root         180 Jul  9 16:18 block drwxr-xr-x   2 root root          60 Jul  9 16:18 bsg crw-------   1 root root     10, 234 Jul  9 16:18 btrfs-control drwxr-xr-x   3 root root          60 Jul  9 16:18 bus lrwxrwxrwx   1 root root           3 Jul  9 16:18 cdrom -> sr0 drwxr-xr-x   2 root root         100 Jul  9 16:18 centos drwxr-xr-x   2 root root        2820 Jul  9 16:18 char crw-------   1 root root      5,   1 Jul  9 16:18 console lrwxrwxrwx   1 root root          11 Jul  9 16:18 core -> /proc/kcore drwxr-xr-x   6 root root         120 Jul  9 16:18 cpu crw-------   1 root root     10,  61 Jul  9 16:18 cpu_dma_latency
+
+A：drwxr-xr-x  20 root root        3180 Jul  9 16:18 . 中，第一个字母d的含义是文件夹的意思  
+
+B:  dr-xr-xr-x. 20 root root        4096 Jul 20 19:48 .. 中，r-x-rx-rx的含义是，所有用户都有读写的权限。
+
+C:  crw-------   1 root root     10, 235 Jul  9 16:18 autofs 中，root root 代表含义是root用户的文件夹，root用户可以执行该文件
+
+D: drwxr-xr-x   2 root root        2820 Jul  9 16:18 char 描述了char这个文件是9月10号 16:18分创建的。
+
+
+
+8 给当前目录所有文件授予可读可写可执行权限的指令是： ()
+
+A： chown B：chmod 777 . C： chmod 755 . D: chmod +x .
+
+
+
+9 只查看系统剩余内存，而不看CPU占用的指令是？（）
+
+A: free B: top C: vmstat D: cat
+
+
+
+10 下列关于统计当前目录有多少文件的命令，正确的是？()
+
+A： ls -al | wc -l B: ls -al C: wc -l D:  count
+
+二.简答题
+1.使用top查看系统资源占用情况时，哪一列表示内存占用呢？
+
+答：
+
+
+2.如果知道一个文件名称，怎么查这个文件在linux下的哪个目录，如：要查找tnsnames.ora文件
+
+
+3 请说出以下指令的含义
+
+tail -200f log.log 
+
+
+tail -200f log.log | grep 'Error' 
+
+
+mkdir -p /usr/dev/redis
+
+
+mv /usr/local/redis /usr/local/redis-2.10
+
+
+
+
+三.编码题
+1 请编写shell代码，实现以下操作：
+
+在/root目录创建一个shell文件，名称为:test.sh
+
+无论/usr/local/test是否存在删除/usr/local/test目录
+
+在/usr/local目录下，创建一个目录test
+
+在目录test中，新建一个log.txt文件，内容为:Hello My Shell
+
+执行一个不存在的命令undefine -v，并把错误内容，追加输出到log.txt中
+
+输出系统环境变量PATH的值
+
+for循环5次，输出成
+
+Hello 1
+Hello 2
+Hello 3
+Hello 4
+Hello 5
+通过if判断，/usr/local是不是一个目录，如果是，则输出/usr/local is a directory
+
+如果不是，则输出/usr/local is not a directory
+
+授权test.sh的权限为755权限
+
+执行test.sh
+
+查看log.txt的内容
+
