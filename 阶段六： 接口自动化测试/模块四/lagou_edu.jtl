@@ -1,0 +1,13 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1651644354765,73,登录第1题,200,,第1题 1-1,text,true,,858,313,1,1,http://150.158.25.85:8080/ssm_web/user/login?phone=15321919666&password=123456,73,0,3
+1651644354839,25,查询用户权限第1题,200,,第1题 1-1,text,true,,11419,314,1,1,http://150.158.25.85:8080/ssm_web/user/getUserPermissions,25,0,0
+1651644354874,32,登录第2题1,200,,第2题 2-1,text,true,,858,313,1,1,http://150.158.25.85:8080/ssm_web/user/login?phone=15321919666&password=123456,32,0,4
+1651644354909,23,登录第2题2,200,,第2题 2-1,text,true,,426,313,1,1,http://150.158.25.85:8080/ssm_web/user/login?phone=15321919665&password=123456,23,0,1
+1651644354932,22,登录第2题3,200,,第2题 2-1,text,true,,426,313,1,1,http://150.158.25.85:8080/ssm_web/user/login?phone=15321919666&password=123455,22,0,1
+1651644354955,24,登录第2题4,200,,第2题 2-1,text,true,,426,306,1,1,http://150.158.25.85:8080/ssm_web/user/login?phone=null&password=123456,23,0,1
+1651644354979,25,登录第2题5,200,,第2题 2-1,text,true,,426,311,1,1,http://150.158.25.85:8080/ssm_web/user/login?phone=15321919666&password=null,25,0,1
+1651644355005,29,登录第2题6,200,,第2题 2-1,text,true,,426,302,1,1,http://150.158.25.85:8080/ssm_web/user/login?phone=&password=123456,29,0,1
+1651644355034,27,登录第2题7,200,,第2题 2-1,text,true,,426,307,1,1,http://150.158.25.85:8080/ssm_web/user/login?phone=15321919666&password=,27,0,1
+1651644355068,36,登录第3题,200,,第3题 3-1,text,true,,858,313,1,1,http://150.158.25.85:8080/ssm_web/user/login?phone=15321919666&password=123456,36,0,2
+1651644355105,34,添加课程第3题,200,,第3题 3-1,text,true,,417,870,1,1,http://150.158.25.85:8080//ssm_web/course/saveOrUpdateCourse,34,0,0
+1651644355140,187,检查数据库存在“自动化测试”的课程第3题,200,OK,第3题 3-1,text,true,,167,0,1,1,null,187,0,175
