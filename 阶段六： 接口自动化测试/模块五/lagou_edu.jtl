@@ -1,0 +1,8 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1651650357995,28,登录成功,200,,业务测试 2-1,text,true,,858,313,1,2,http://150.158.25.85:8080/ssm_web/user/login?phone=15321919666&password=123456,28,0,1
+1651650358025,18,查询用户列表成功,200,,业务测试 2-1,text,true,,3526,411,1,2,http://150.158.25.85:8080/ssm_web/user/findAllUserByPage,18,0,0
+1651650358044,15,搜索用户成功,200,,业务测试 2-1,text,true,,997,436,1,2,http://150.158.25.85:8080/ssm_web/user/findAllUserByPage,15,0,0
+1651650358060,28,查询用户权限成功,200,,业务测试 2-1,text,true,,14059,346,1,2,http://150.158.25.85:8080/ssm_web/user/getUserPermissions,28,0,0
+1651650358089,17,冻结用户成功,200,,业务测试 2-1,text,true,,371,386,1,2,http://150.158.25.85:8080/ssm_web/user/updateUserStatus?id=100030011&status=DISABLE,17,0,0
+1651650358107,23,解冻用户成功,200,,业务测试 2-1,text,true,,372,385,1,2,http://150.158.25.85:8080/ssm_web/user/updateUserStatus?id=100030011&status=ENABLE,23,0,0
+1651650358131,33,修改用户角色权限成功,200,,业务测试 2-1,text,true,,373,419,1,1,http://150.158.25.85:8080/ssm_web/user/userContextRole,33,0,0
