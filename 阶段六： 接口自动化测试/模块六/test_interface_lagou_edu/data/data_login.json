@@ -1,0 +1,33 @@
+[
+{
+    "case": "登录成功",
+    "phone": 15321919666,
+    "password": "123456",
+    "state": 1
+},
+{
+    "case": "用户名错误",
+    "phone": 15321919665,
+    "password": "123456",
+    "state": 206
+},
+{
+    "case": "密码错误",
+    "phone": 15321919666,
+    "password": "123455",
+    "state": 206
+},
+{
+    "case": "用户名为空",
+    "phone": null,
+    "password": "123456",
+    "state": 206
+},
+{
+    "case": "密码为空",
+    "phone": 15321919666,
+    "password": null,
+    "state": 206
+}  
+]
+

@@ -1,0 +1,3 @@
+INFO 2022-05-10 00:23:06,128 /Users/zhaominzhen/Documents/test_interface_lagou_edu/api/api_course.py 6 日志打印。。。。
+INFO 2022-05-10 00:23:06,174 /Users/zhaominzhen/Documents/test_interface_lagou_edu/api/api_course.py 6 日志打印。。。。
+INFO 2022-05-10 00:23:06,531 /Users/zhaominzhen/Documents/test_interface_lagou_edu/base/mysql.py 36 select course_name from course where course_name = '全栈开发工程师';

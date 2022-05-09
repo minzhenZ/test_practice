@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <api>
+        <host>http://150.158.25.85:8080</host>
+        <base_url>/ssm_web</base_url>
+        <headers>
+            <content-type>application/json</content-type>
+        </headers>
+        <!--登录 -->
+        <api_login method="post">/user/login</api_login>
+        <!--课程管理 -->
+        <api_find_course method="post">/course/findAllCourse</api_find_course>
+        <api_save_course method="post">/course/saveOrUpdateCourse</api_save_course>
+        <!--用户管理 -->
+        <api_get_user_permissions method="get">/user/getUserPermissions</api_get_user_permissions>
+        <api_find_user method="post">/user/findAllUserByPage</api_find_user>
+        <api_update_user_status method="post">/updateUserStatus</api_update_user_status>
+        <api_update_user_role method="post">/user/userContextRole</api_update_user_role>
+    </api>
+    <sql>
+        <host>150.158.25.85</host>
+        <port>3307</port>
+        <database>ssm_lagou_edu</database>
+        <user>root</user>
+        <password>Lagou@1234</password>
+    </sql>
+
+</config>
