@@ -19,5 +19,6 @@ class Cases(unittest.TestCase):
 
     def assertion_equals_expected(self, response, case_name, expected):
         logging.info(case_name)
-        logging.info(response)
-        self.assertEqual(response['msg'], expected)
+        json_data = json.loads(response.text)
+        logging.info(json_data)
+        self.assertEqual(json_data['msg'], expected)

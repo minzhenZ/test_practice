@@ -28,7 +28,6 @@ def read_csv_data(file):
     with open(file, 'r', encoding='utf-8') as f:
         reader = csv.reader(f)
         parameterized_data = tuple(reader)[1:]
-        print(parameterized_data)
 
     return parameterized_data
 

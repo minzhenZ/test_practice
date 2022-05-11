@@ -41,7 +41,7 @@ class Apis:
             logging.error('无法解析，请检查xml文件')
             return response
 
-        if 'text/html' in response.headers['Content-Type']:
+        if 'application/json' in response.headers['Content-Type']:
             return response.json()
         else:
             return response

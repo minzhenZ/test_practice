@@ -41,14 +41,15 @@ class TestInterfaceRegister(ApiRegister):
 
         sign = encrypt_data('TPSHOP', pwd)
         data = 'auth_code=TPSHOP' + '&' + f'username={user_name}' + '&' + f'verify_code=8888' \
-               + '&' + f'password={sign}'
+               + '&' + f'password={sign}' + '&' + f'password2={sign}'
 
         response = self.register(data.encode('utf-8'))
-        if response['status'] == 1:
-            self.init_request_without_authorization()
-            self.get_verify_for_register()
-            response = self.register(data)
-            self.assertion_equals_expected(response, case_name, msg)
+        self.assertion_equals_expected(response, '注册成功', '注册成功')
+
+        self.init_request_without_authorization()
+        self.get_verify_for_register()
+        response = self.register(data)
+        self.assertion_equals_expected(response, case_name, msg)
 
     @classmethod
     def tearDownClass(cls) -> None:

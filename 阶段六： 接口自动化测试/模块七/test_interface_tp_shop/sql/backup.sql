@@ -71,7 +71,7 @@ CREATE TABLE `tp_users` (
   KEY `mobile` (`mobile_validated`),
   KEY `openid` (`openid`),
   KEY `unionid` (`unionid`)
-) ENGINE=InnoDB AUTO_INCREMENT=61 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=59 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -80,7 +80,7 @@ CREATE TABLE `tp_users` (
 
 LOCK TABLES `tp_users` WRITE;
 /*!40000 ALTER TABLE `tp_users` DISABLE KEYS */;
-INSERT INTO `tp_users` VALUES (58,'','519475228fe35ad067744465c42a19b2',NULL,0,0,0.00,0.00,0.00,0,0,0,1652292509,1652292509,'','','15321919666',1,'',NULL,NULL,'/public/images/icon_goods_thumb_empty_300.png',0,0,0,0,'15321919666',1,1.00,0.00,0,1,0,0,0,'9935c0ddcd1142e4fec2b00b9472f676',63,'0',0,0,NULL,NULL),(59,'','519475228fe35ad067744465c42a19b2',NULL,0,0,0.00,0.00,0.00,0,0,0,1652293379,1652293379,'','','13800138006',1,'',NULL,NULL,'/public/images/icon_goods_thumb_empty_300.png',0,0,0,0,'13800138006',1,1.00,0.00,0,1,0,0,0,'d1f42e4a5615e09141fe6babba808c0b',63,'0',0,0,NULL,NULL),(60,'','53694575fba61d20b707af2d0427c34d',NULL,0,0,0.00,0.00,0.00,0,0,0,1652293441,1652293441,'','','13067780253',1,'',NULL,NULL,'/public/images/icon_goods_thumb_empty_300.png',0,0,0,0,'13067780253',1,1.00,0.00,0,1,0,0,0,'0fd23080f944f8c79bf325aa4bb2d46b',63,'0',0,0,NULL,NULL);
+INSERT INTO `tp_users` VALUES (58,'','519475228fe35ad067744465c42a19b2',NULL,0,0,0.00,0.00,0.00,0,0,0,1652292509,1652294024,'','','15321919666',1,'',NULL,NULL,'/public/images/icon_goods_thumb_empty_300.png',0,0,0,0,'15321919666',1,1.00,0.00,0,1,0,0,0,'9935c0ddcd1142e4fec2b00b9472f676',63,'0',0,0,NULL,NULL);
 /*!40000 ALTER TABLE `tp_users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -93,4 +93,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-05-12  2:24:18
+-- Dump completed on 2022-05-12  3:08:16
