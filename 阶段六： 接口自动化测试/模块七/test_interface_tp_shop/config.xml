@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <api>
+        <host>http://150.158.25.85</host>
+        <base_url>/index.php</base_url>
+        <headers>
+            <content-type>application/x-www-form-urlencoded</content-type>
+        </headers>
+        <!--注册 -->
+        <api_reg method="post">/Home/User/reg.html</api_reg>
+        <!--验证码-->
+        <api_verify_reg_params method="get">?m=Home&amp;c=User&amp;a=verify&amp;type=user_reg</api_verify_reg_params>
+        <api_verify_login_params method="get">?m=Home&amp;c=User&amp;a=verify</api_verify_login_params>
+        <!--登录-->
+        <api_login_params method="post">?m=Home&amp;c=User&amp;a=do_login</api_login_params>
+    </api>
+    <sql>
+        <host>150.158.25.85</host>
+        <port>3306</port>
+        <database>tpshop2.0</database>
+        <user>root</user>
+        <password>root</password>
+    </sql>
+
+</config>

@@ -1,0 +1,16 @@
+INFO 2022-05-12 02:08:29,328 /Users/zhaominzhen/Documents/test_interface_tp_shop/base/cases.py 21 注册成功
+INFO 2022-05-12 02:08:29,328 /Users/zhaominzhen/Documents/test_interface_tp_shop/base/cases.py 22 {'status': 1, 'msg': '注册成功', 'result': {'user_id': 58, 'email': '', 'password': '519475228fe35ad067744465c42a19b2', 'paypwd': None, 'sex': 0, 'birthday': 0, 'user_money': '0.00', 'frozen_money': '0.00', 'distribut_money': '0.00', 'underling_number': 0, 'pay_points': 0, 'address_id': 0, 'reg_time': 1652292509, 'last_login': 1652292509, 'last_ip': '', 'qq': '', 'mobile': '15321919666', 'mobile_validated': 1, 'oauth': '', 'openid': None, 'unionid': None, 'head_pic': '/public/images/icon_goods_thumb_empty_300.png', 'province': 0, 'city': 0, 'district': 0, 'email_validated': 0, 'nickname': '15321919666', 'level': 1, 'discount': '1.00', 'total_amount': '0.00', 'is_lock': 0, 'is_distribut': 1, 'first_leader': 0, 'second_leader': 0, 'third_leader': 0, 'token': '9935c0ddcd1142e4fec2b00b9472f676', 'message_mask': 63, 'push_id': '0', 'distribut_level': 0, 'is_vip': 0, 'xcx_qrcode': None, 'poster': None}}
+INFO 2022-05-12 02:08:29,480 /Users/zhaominzhen/Documents/test_interface_tp_shop/base/cases.py 21 用户名为空
+INFO 2022-05-12 02:08:29,480 /Users/zhaominzhen/Documents/test_interface_tp_shop/base/cases.py 22 {'status': -1, 'msg': '请用手机号或邮箱注册', 'result': ''}
+INFO 2022-05-12 02:08:29,624 /Users/zhaominzhen/Documents/test_interface_tp_shop/base/cases.py 21 用户名不是手机号
+INFO 2022-05-12 02:08:29,624 /Users/zhaominzhen/Documents/test_interface_tp_shop/base/cases.py 22 {'status': -1, 'msg': '请用手机号或邮箱注册', 'result': ''}
+INFO 2022-05-12 02:08:29,764 /Users/zhaominzhen/Documents/test_interface_tp_shop/base/cases.py 21 密码为空
+INFO 2022-05-12 02:08:29,764 /Users/zhaominzhen/Documents/test_interface_tp_shop/base/cases.py 22 {'status': -1, 'msg': '账号已存在', 'result': ''}
+INFO 2022-05-12 02:08:30,001 /Users/zhaominzhen/Documents/test_interface_tp_shop/base/cases.py 21 验证码错误
+INFO 2022-05-12 02:08:30,002 /Users/zhaominzhen/Documents/test_interface_tp_shop/base/cases.py 22 {'status': -1, 'msg': '图像验证码错误'}
+INFO 2022-05-12 02:08:30,142 /Users/zhaominzhen/Documents/test_interface_tp_shop/base/cases.py 21 验证码为空
+INFO 2022-05-12 02:08:30,142 /Users/zhaominzhen/Documents/test_interface_tp_shop/base/cases.py 22 {'status': -1, 'msg': '图像验证码错误'}
+INFO 2022-05-12 02:08:30,276 /Users/zhaominzhen/Documents/test_interface_tp_shop/base/cases.py 21 授权码为空
+INFO 2022-05-12 02:08:30,277 /Users/zhaominzhen/Documents/test_interface_tp_shop/base/cases.py 22 {'status': -1, 'msg': '账号已存在', 'result': ''}
+INFO 2022-05-12 02:08:30,431 /Users/zhaominzhen/Documents/test_interface_tp_shop/base/cases.py 21 两次密码不一致
+INFO 2022-05-12 02:08:30,431 /Users/zhaominzhen/Documents/test_interface_tp_shop/base/cases.py 22 {'status': -1, 'msg': '账号已存在', 'result': ''}
