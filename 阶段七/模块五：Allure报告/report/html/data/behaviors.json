@@ -1,0 +1,26 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "登录页面",
+    "children" : [ {
+      "name" : "登录成功",
+      "uid" : "7db3f10ead4fc2ae",
+      "parentUid" : "61bcda7215eb52afed47c0f6d8cd25a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653037629372,
+        "stop" : 1653037631052,
+        "duration" : 1680
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "61bcda7215eb52afed47c0f6d8cd25a5"
+  } ]
+}

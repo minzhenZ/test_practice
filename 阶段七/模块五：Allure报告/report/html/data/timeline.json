@@ -1,0 +1,30 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "zhaominzhendeMacBook-Pro.local",
+    "children" : [ {
+      "name" : "48678-MainThread",
+      "children" : [ {
+        "name" : "登录成功",
+        "uid" : "7db3f10ead4fc2ae",
+        "parentUid" : "ae6d223852c9bc4497100cc5c878afac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653037629372,
+          "stop" : 1653037631052,
+          "duration" : 1680
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ae6d223852c9bc4497100cc5c878afac"
+    } ],
+    "uid" : "4a3d7deccb043b5cee6dd47d15f1517c"
+  } ]
+}
